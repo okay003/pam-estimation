@@ -6,7 +6,7 @@
 試作版  
 ![overview](https://user-images.githubusercontent.com/74394828/134211825-e05fe700-33e6-42ed-bceb-d09f076bb846.jpg)
   
-仮組版  
+仮組版（PAMの収縮力が予想以上に強く部材が歪む可能性があったため、構造を強化しました）  
 ![temp state](https://user-images.githubusercontent.com/74394828/134277127-4f8b86dc-471c-450f-92fd-79f1506b28e0.jpg)
 
 PAMの吸排気端を固定し、自由端が軸方向に直線的に収縮できるよう、リニアベアリング付きのガイドを配置してあります。  
