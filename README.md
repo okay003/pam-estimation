@@ -3,12 +3,13 @@
 空気圧人工筋肉（PAM）を評価・モデル化するための設備です。  
 圧力を入力、その際の変位と収縮力を出力として計測します。  
 
-試作版  
-![overview](https://user-images.githubusercontent.com/74394828/134211825-e05fe700-33e6-42ed-bceb-d09f076bb846.jpg)
-  
-仮組版（PAMの収縮力が予想以上に強く部材が歪む可能性があったため、構造を強化しました）  
-![temp state](https://user-images.githubusercontent.com/74394828/134277127-4f8b86dc-471c-450f-92fd-79f1506b28e0.jpg)
+概観
+![overview](https://user-images.githubusercontent.com/74394828/136504774-835d78af-6dc9-4221-90d2-7b23e0a8d68c.jpg)
 
+試作版
+![oldsys](https://user-images.githubusercontent.com/74394828/136504781-5ba665f6-337d-4efa-9841-c6aca73f0eb1.jpg)
+
+  
 PAMの吸排気端を固定し、自由端が軸方向に直線的に収縮できるよう、リニアベアリング付きのガイドを配置してあります。  
 計測のメインターゲットである変位はレーザ変位計VL53L0Xを用いて計測し、ArduinoとProcessingを介してPCでデータ処理を行います。  
 収縮力は重りを用いて計測します。  
@@ -26,5 +27,7 @@ PAMの吸排気端を固定し、自由端が軸方向に直線的に収縮で�
 ・1個　Arduino UNO  
 ・1本　Arduino用USBケーブル  
 ・1台　処理用PC  
+・コンプレッサ  
+・制御弁  
 ・PAM  
 ・計測用の重り  
